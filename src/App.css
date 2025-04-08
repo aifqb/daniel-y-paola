@@ -1,11 +1,16 @@
 body {
-  font-family: sans-serif; /* Reemplaza con la fuente principal deseada */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f0f0f0; /* Un tono de fondo general */
+  background-color: #f5f5f5; /* Un tono de fondo muy claro */
   color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Para centrar el contenido en pantallas grandes */
 }
 
 .App {
-  /* Estilos generales de la aplicación si es necesario */
+  width: 100%;
+  max-width: 700px; /* Ancho máximo para el contenido principal */
 }

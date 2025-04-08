@@ -1,57 +1,99 @@
+/* src/components/InfoBoda.css */
 .info-boda {
-    text-align: center;
-    font-family: sans-serif; /* Reemplaza con la fuente deseada */
-    padding: 20px;
-    background-color: #f8f8f8; /* Tono blanco */
-    color: #333; /* Color de texto base */
-  }
-  
-  .cabecera h1 {
-    font-size: 1.8em;
-    color: #B8860B; /* Tono dorado */
-    margin-bottom: 10px;
-  }
-  
-  .nombres {
-    font-size: 2.5em;
-    font-weight: bold;
-    color: #B8860B; /* Tono dorado */
-    margin-bottom: 15px;
-  }
-  
-  .bendicion {
-    font-style: italic;
-    margin-bottom: 20px;
-    color: #555; /* Tono grisáceo */
-  }
-  
-  .padres p {
-    margin: 5px 0;
-    color: #555;
-  }
-  
-  .ubicaciones h2 {
-    margin-top: 30px;
-    color: #B8860B; /* Tono dorado */
-  }
-  
-  .agradecimiento {
-    margin-top: 30px;
-    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Una fuente elegante y legible */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: #fefefe; /* Blanco suave */
     color: #333;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    margin: 20px;
+  }
+  
+  .cabecera {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .titulo-principal {
+    font-size: 2.8em;
+    color: #a78a6d; /* Tono dorado suave */
+    margin-bottom: 5px;
+    letter-spacing: 1.5px;
+  }
+  
+  .subtitulo {
+    font-size: 1.2em;
+    color: #777;
+    font-style: italic;
+  }
+  
+  .seccion-titulo {
+    font-size: 1.6em;
+    color: #a78a6d; /* Tono dorado suave */
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 8px;
+    width: 80%;
+    text-align: center;
+  }
+  
+  .informacion-evento,
+  .ubicaciones,
+  .agradecimiento {
+    text-align: center;
+    margin-bottom: 30px;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  .texto-evento,
+  .texto-agradecimiento {
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #555;
   }
   
   /* Estilos para vista móvil */
   @media (max-width: 600px) {
     .info-boda {
-      padding: 15px;
+      padding: 20px;
+      margin: 10px;
+      border-radius: 8px;
     }
   
-    .cabecera h1 {
-      font-size: 1.5em;
+    .cabecera {
+      margin-bottom: 30px;
     }
   
-    .nombres {
-      font-size: 2em;
+    .titulo-principal {
+      font-size: 2.2em;
+    }
+  
+    .subtitulo {
+      font-size: 1em;
+    }
+  
+    .seccion-titulo {
+      font-size: 1.4em;
+      margin-top: 25px;
+      margin-bottom: 12px;
+      width: 90%;
+    }
+  
+    .informacion-evento,
+    .ubicaciones,
+    .agradecimiento {
+      width: 90%;
+      margin-bottom: 25px;
+    }
+  
+    .texto-evento,
+    .texto-agradecimiento {
+      font-size: 1em;
+      line-height: 1.6;
     }
   }

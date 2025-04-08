@@ -1,7 +1,7 @@
 {
   "name": "daniel-y-paola",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://aifqb.github.io/daniel-y-paola",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",

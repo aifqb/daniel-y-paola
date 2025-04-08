@@ -1,0 +1,25 @@
+.mapa-embed {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .mapa-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%; /* Proporción 16:9 */
+    position: relative;
+    height: 0;
+    margin: 10px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 90%; /* Para responsive */
+  }
+  
+  .mapa-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border: 0; /* Elimina el borde predeterminado del iframe */
+  }

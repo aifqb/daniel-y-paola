@@ -1,0 +1,57 @@
+.info-boda {
+    text-align: center;
+    font-family: sans-serif; /* Reemplaza con la fuente deseada */
+    padding: 20px;
+    background-color: #f8f8f8; /* Tono blanco */
+    color: #333; /* Color de texto base */
+  }
+  
+  .cabecera h1 {
+    font-size: 1.8em;
+    color: #B8860B; /* Tono dorado */
+    margin-bottom: 10px;
+  }
+  
+  .nombres {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #B8860B; /* Tono dorado */
+    margin-bottom: 15px;
+  }
+  
+  .bendicion {
+    font-style: italic;
+    margin-bottom: 20px;
+    color: #555; /* Tono grisáceo */
+  }
+  
+  .padres p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .ubicaciones h2 {
+    margin-top: 30px;
+    color: #B8860B; /* Tono dorado */
+  }
+  
+  .agradecimiento {
+    margin-top: 30px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Estilos para vista móvil */
+  @media (max-width: 600px) {
+    .info-boda {
+      padding: 15px;
+    }
+  
+    .cabecera h1 {
+      font-size: 1.5em;
+    }
+  
+    .nombres {
+      font-size: 2em;
+    }
+  }

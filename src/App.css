@@ -1,18 +1,11 @@
+body {
+  font-family: sans-serif; /* Reemplaza con la fuente principal deseada */
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* Un tono de fondo general */
+  color: #333;
+}
+
 .App {
-  text-align: center;
-  font-family: sans-serif;
-  padding: 20px;
-}
-
-.App-header {
-  background-color: #f8f8f8;
-  padding: 30px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.ubicaciones {
-  margin-top: 20px;
-  border-top: 1px solid #eee;
-  padding-top: 20px;
+  /* Estilos generales de la aplicación si es necesario */
 }

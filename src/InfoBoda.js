@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './InfoBoda.css';
 import UbicacionLink from './components/UbicacionLink';
 import { Typography, Container, Box, Divider, Avatar } from '@mui/material';
+import MusicNoteIcon from '@mui/icons-material/MusicNote'; // Importa el icono de música
 
 const FadeIn = ({ children, delay }) => {
   const [isVisible, setIsVisible] = useState(false);
@@ -78,13 +79,13 @@ function InfoBoda() {
       <FadeIn delay={700}>
         <Box mb={4} textAlign="center">
           <Typography variant="h6" className="seccion-titulo" align="center">
-            Recepción
+            Recepción <MusicNoteIcon color="primary" sx={{ fontSize: 'inherit', verticalAlign: 'middle', ml: 1 }} />
           </Typography>
           <Typography variant="body2" align="center" className="detalle-evento">
-            Al finalizar la ceremonia, los esperamos en:
+            Al finalizar la ceremonia, los esperamos para celebrar y compartir
           </Typography>
           <Typography variant="body2" align="center" className="detalle-evento">
-            {lugarRecepcion}
+            momentos inolvidables en {lugarRecepcion}.
           </Typography>
           <UbicacionLink nombre="Ver ubicación de la Recepción" mapaUrl={localMapaUrl} />
         </Box>

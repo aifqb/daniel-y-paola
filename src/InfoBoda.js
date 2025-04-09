@@ -68,6 +68,9 @@ function InfoBoda() {
             Sábado, 26 de Abril de 2025
           </Typography>
           <Typography variant="body2" align="center" className="detalle-evento">
+            13:30
+          </Typography>
+          <Typography variant="body2" align="center" className="detalle-evento">
             Iglesia de "San Pedro", Plaza Sucre
           </Typography>
           <UbicacionLink nombre="Ver ubicación de la Iglesia" mapaUrl={iglesiaMapaUrl} />
